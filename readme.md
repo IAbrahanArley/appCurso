@@ -1,14 +1,8 @@
-# Seu App de Cursos [Nome do seu App Aqui]
+ App de Cursos
 
 ## Visão Geral
 
-[Nome do seu App Aqui] é um aplicativo móvel desenvolvido com React Native e Expo, projetado para oferecer uma experiência intuitiva e envolvente no acesso a diversos cursos. Através deste app, os usuários podem explorar um catálogo de cursos, visualizar detalhes, e possivelmente interagir com o conteúdo (dependendo das funcionalidades implementadas).
-
-## Arquitetura
-
-_(Incluir aqui uma descrição da arquitetura do seu aplicativo, baseada no print que você anexou. Mencione as principais partes, como a navegação, a estrutura de pastas (screens, components, etc.), e como os dados são gerenciados (se você já tiver essa parte definida).)_
-
-**Exemplo (baseado em uma arquitetura comum com React Navigation):**
+Aplicativo móvel desenvolvido com React Native e Expo, projetado para oferecer uma experiência intuitiva e envolvente no acesso a diversos cursos.
 
 O aplicativo utiliza React Navigation para gerenciar a navegação entre as diferentes telas. A estrutura de pastas é organizada em:
 
@@ -43,10 +37,10 @@ Para executar o projeto no seu ambiente de desenvolvimento, siga estes passos:
     yarn global add expo-cli
     ```
 
-3.  **Clone o repositório do seu projeto (se você ainda não o fez).**
+3.  **Clone o repositório do projeto.**
     ```bash
-    git clone [https://docs.github.com/articles/referencing-and-citing-content](https://docs.github.com/articles/referencing-and-citing-content)
-    cd [nome do seu projeto]
+    git clone git@github.com:IAbrahanArley/appCurso.git
+    cd appCurso
     ```
 
 4.  **Instale as dependências do projeto.** Navegue até a raiz do seu projeto no terminal e execute:
@@ -74,3 +68,5 @@ Para executar o projeto no seu ambiente de desenvolvimento, siga estes passos:
 
 Agora você deve conseguir executar o seu aplicativo de cursos no seu ambiente de desenvolvimento!
 
+![7e40b8f9-e04c-4321-ac08-187547368280](https://github.com/user-attachments/assets/29927286-4467-4889-9052-9d7c6a0d46f5)
+![bbf92d20-fc98-4319-aa17-22d7d9e4ee95](https://github.com/user-attachments/assets/c472740c-b2c4-4401-b965-c6e49769dc0e)
