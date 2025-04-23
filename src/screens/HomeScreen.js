@@ -12,7 +12,7 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native
  
    return (
      <View style={styles.container}>
-       <Text style={styles.title}>📚 Cursos Disponíveis</Text>
+       <Text style={styles.title}>Cursos Disponíveis</Text>
        <FlatList
          data={items}
          keyExtractor={(item) => item.id}
