@@ -3,8 +3,8 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
  import { Ionicons } from '@expo/vector-icons'
  import React from 'react'
  import HomeScreen from '../screens/HomeScreen'
- import DetailsScreen from '../screens/DetailsScreen'
  import LoginScreen2 from '../screens/LoginScreen'
+import DetailsScreen from '../screens/DetailsScreen'
  
  const Stack = createNativeStackNavigator()
  const Tab = createBottomTabNavigator()
@@ -17,6 +17,12 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
                component={HomeScreen}
                options={{ tabBarIcon: ({ color, size }) => <Ionicons name="home-outline" size={size} color={color} /> }}
              />
+             <Tab.Screen
+               name="Details"
+               component={DetailsScreen}
+               options={{ tabBarIcon: ({ color, size }) => <Ionicons name="home-outline" size={size} color={color} /> }}
+             />
+            
          </Tab.Navigator>
      )
  }
@@ -27,7 +33,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack'
      <Stack.Navigator initialRouteName="Login">
          <Stack.Screen name="Login" component={LoginScreen2} options={{ headerShown: false}} ></Stack.Screen>
          <Stack.Screen name="Main" component={MainTabs} options={{ headerShown: false }} ></Stack.Screen>
-         <Stack.Screen name="Details" component={DetailsScreen} ></Stack.Screen>
+         <Stack.Screen name="Details" component={DetailsScreen} options={{ headerShown: false }} ></Stack.Screen>
      </Stack.Navigator>
    )
  }
