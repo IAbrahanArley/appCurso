@@ -34,3 +34,38 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+# Arquivos do Node.js
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos e diretórios do Android
+android/app/build/
+android/.gradle/
+android/build/outputs/
+android/build/tmp/
+android/local.properties
+android/*.iml
+android/.idea/
+
+# Arquivos e diretórios do iOS
+ios/build/
+ios/*.xcworkspace/
+ios/Podfile.lock
+ios/Pods/
+
+# Arquivos de configuração de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+temp/
+
+# Outros
+.DS_Store
+Thumbs.db
